@@ -12,8 +12,8 @@ public class AppVar {
         public static final String BASE_IMAGE = "http://image.tmdb.org/t/p/w185";
         public static final String id = "id";
         public static final String title = "title";
-        public static String api_key = "eb00f1aff4a6ea99f945c99836951768";
-        public static String key = "cxLG2wtE7TM";
+        public static String api_key = "";
+        public static String key = "";
         public static final String URL_MOVIE_550 = BASE_URL + "popular?api_key=" + api_key;
     public static final String TAG_JSON_ARRAY="results";
 
