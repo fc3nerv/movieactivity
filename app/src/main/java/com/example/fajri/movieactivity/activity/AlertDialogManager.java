@@ -19,7 +19,7 @@ public class AlertDialogManager {
         alertDialog.setTitle(title);
         alertDialog.setMessage(message);
         if(status != null)
-            alertDialog.setIcon((status) ? r.mipmap.ic_action_bell : r.mipmap.ic_action_bell);
+          alertDialog.setIcon((status) ? R.mipmap.ic_action_bell : R.mipmap.ic_action_bell);
         alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
             }
